@@ -1,0 +1,786 @@
+{
+  "_comment": "2.3 km round (about 10 min) in the Musiciens district of Nice, never driving the same street twice: Dalpozzo, Buffa, Meyerbeer, bd Victor Hugo, bd Gambetta, Verdi, Dalpozzo, Paul Deroulede, Alphonse Karr, Rossini. 43 waypoints, one in the middle of each road segment (about every 50 m): BeNav computes the path between two consecutive waypoints itself (Emergency mode, Fastest criterion), so sparse waypoints let it take other streets. Trimmed response of BeMap POST /bgis/service/routing/1.0/traceroute (options WAYPOINTS, NO_MINIMAL_WAYPOINTS and USED_DESTINATIONS_OFF); routingRoutes[0].length is used by the app to compute the circuit percentage.",
+  "routingRoutes": [
+    {
+      "length": 2323,
+      "duration": 613,
+      "startUTurnThreshold": 3000,
+      "waypoints": [
+        {
+          "usedDestinationIndex": 0,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261790000000001,
+            "lat": 43.69628
+          },
+          "angle": 352,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 1,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.2617600000000015,
+            "lat": 43.69643
+          },
+          "angle": 352,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 2,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261685,
+            "lat": 43.696785
+          },
+          "angle": 351,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 3,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261385,
+            "lat": 43.69695
+          },
+          "angle": 258,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 4,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.260834999999999,
+            "lat": 43.696855
+          },
+          "angle": 256,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 5,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.260385,
+            "lat": 43.69737
+          },
+          "angle": 346,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 6,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.260170000000001,
+            "lat": 43.69804
+          },
+          "angle": 348,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 7,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25978,
+            "lat": 43.69834
+          },
+          "angle": 253,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 8,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.259270000000001,
+            "lat": 43.698225
+          },
+          "angle": 252,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 9,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.258735,
+            "lat": 43.6981
+          },
+          "angle": 252,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 10,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.257939999999999,
+            "lat": 43.697925
+          },
+          "angle": 254,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 11,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.257250000000001,
+            "lat": 43.697765
+          },
+          "angle": 251,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 12,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.2565,
+            "lat": 43.69759
+          },
+          "angle": 253,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 13,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.256215,
+            "lat": 43.69808
+          },
+          "angle": 0,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 14,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.256210000000001,
+            "lat": 43.69896
+          },
+          "angle": 0,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 15,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.256205000000001,
+            "lat": 43.699435
+          },
+          "angle": 359,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 16,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25637,
+            "lat": 43.699585
+          },
+          "angle": 88,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 17,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25699,
+            "lat": 43.699585
+          },
+          "angle": 91,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 18,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25763,
+            "lat": 43.699585
+          },
+          "angle": 88,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 19,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.258124999999999,
+            "lat": 43.699595
+          },
+          "angle": 89,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 20,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.258844999999999,
+            "lat": 43.6996
+          },
+          "angle": 90,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 21,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.259485,
+            "lat": 43.6996
+          },
+          "angle": 90,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 22,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.26,
+            "lat": 43.6996
+          },
+          "angle": 90,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 23,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.260815,
+            "lat": 43.6996
+          },
+          "angle": 90,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 24,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261385,
+            "lat": 43.699875
+          },
+          "angle": 7,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 25,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261459999999999,
+            "lat": 43.70028
+          },
+          "angle": 9,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 26,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261515,
+            "lat": 43.70056
+          },
+          "angle": 7,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 27,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.26156,
+            "lat": 43.700845
+          },
+          "angle": 6,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 28,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261775,
+            "lat": 43.700955
+          },
+          "angle": 100,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 29,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.262175,
+            "lat": 43.7009
+          },
+          "angle": 101,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 30,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.262955,
+            "lat": 43.700795
+          },
+          "angle": 100,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 31,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.26408,
+            "lat": 43.700645
+          },
+          "angle": 100,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 32,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.264324999999999,
+            "lat": 43.70049
+          },
+          "angle": 163,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 33,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.264434999999999,
+            "lat": 43.700215
+          },
+          "angle": 165,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 34,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.2632850000000015,
+            "lat": 43.700205
+          },
+          "angle": 279,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 35,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.26187,
+            "lat": 43.700365
+          },
+          "angle": 279,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 36,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.261,
+            "lat": 43.70046
+          },
+          "angle": 278,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 37,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.260215,
+            "lat": 43.70054
+          },
+          "angle": 278,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 38,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.259665,
+            "lat": 43.7006
+          },
+          "angle": 279,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 39,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25909,
+            "lat": 43.700665
+          },
+          "angle": 279,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 40,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.25835,
+            "lat": 43.700745
+          },
+          "angle": 278,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 41,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.257724944997567,
+            "lat": 43.70081223487978
+          },
+          "angle": 278,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        },
+        {
+          "usedDestinationIndex": 42,
+          "polylineIndex": -1,
+          "coordinate": {
+            "lon": 7.2575213661163325,
+            "lat": 43.70083430969823
+          },
+          "angle": 279,
+          "radius": 0,
+          "uturn": false,
+          "ignorePoint": false,
+          "ignoreTrafficDirections": false,
+          "ignoreRoadBlocks": false,
+          "ignoreRestrictions": false,
+          "avoidUTurn": "UNDEF",
+          "useStartAngle": "UNDEF",
+          "useStopRoadSide": "UNDEF"
+        }
+      ]
+    }
+  ]
+}
